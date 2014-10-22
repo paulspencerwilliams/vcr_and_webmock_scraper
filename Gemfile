@@ -9,4 +9,6 @@ gem 'mechanize'
 group :test do
   gem 'lookout-rack-test'
   gem 'cucumber'
+  gem 'vcr', '~> 2.9.3'
+  gem 'webmock', '~> 1.19.0'
 end
