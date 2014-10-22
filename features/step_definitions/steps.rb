@@ -1,4 +1,4 @@
-Then(/^I should receive the title 'Paul S Williams :: Welcome'$/) do
-    pending # express the regexp above with the code you wish you had
+When(/^shouldn't have requested the page$/) do  
+  WebMock.should_not have_requested(:get, "paulswilliams.me.uk/about")
 end
 

@@ -7,3 +7,4 @@ Feature: as a user, I want to be able to see the title without http://paulswilli
     """
     { "title" : "Paul S Williams :: Welcome" }
     """
+    And shouldn't have requested the page
